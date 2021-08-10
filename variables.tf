@@ -1,8 +1,8 @@
-# https://intersight.com/an/settings/api-keys/
-## Generate API key to obtain the API Key and PEM file
+## Intersight>gear icon>Settings>API Keys
+## Generate API key to obtain the API Key ID and Secret Key file
 
 variable "api_key" {
-    description = "API Key for Terraform provisioning"
+    description = "API Key ID created in Intersight"
     type = string
     default = "6111718d7564612d302ef254/611178d37564612d302f3b18/611299e47564612d3082bb94"
 }
