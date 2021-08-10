@@ -2,13 +2,13 @@
 ## Generate API key to obtain the API Key and PEM file
 
 variable "api_key" {
-    description = "API Key for Terraform Demo Account"
+    description = "API Key for Terraform provisioning"
     type = string
     default = "6111718d7564612d302ef254/611178d37564612d302f3b18/611299e47564612d3082bb94"
 }
 
 variable "secretkey" {
-    description = "Filename (PEM) that provides secret key for Terraform Demo Account"
+    description = "Filename that holds secret key corresponding to the above API key"
     type = string
     default = "SecretKey.txt"
 }
