@@ -2,9 +2,13 @@
 Directions for using Terraform with IMM demo
 --------------------------------------------
 
+This code works with X-series and Intersight Private Virtual Appliance.
+
 Create a file called SecretKey.txt file and put your secret key generated from Intersight there (see api_key below).
 
 Edit variables.tf file and change the following variables/MOIDs to match yours:
+
+endpoint - this is https://intersight.com if using the SaaS Intersight service or the full URL of your PVA if using the air gapped version.
 
 organization - Your intersight account will have a default organization. One way to find the 
 organization is to go to Gear>Settings>Organizations> and click the default org. Get the MOID 
