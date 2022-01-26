@@ -1,6 +1,4 @@
-
-Directions for using Terraform with IMM demo
---------------------------------------------
+# Creating servers in Intersight Private Virtual Appliance using Terraform open source
 
 This code works with X-series and Intersight Private Virtual Appliance.
 
